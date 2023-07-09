@@ -56,6 +56,9 @@ TARGET_PROVIDES_AUDIO_HAL = true
 TARGET_BOOTLOADER_BOARD_NAME := parrot
 TARGET_NO_BOOTLOADER := true
 
+# Device-specific components
+-include device/xiaomi/garnet-miuicamera/BoardConfig.mk
+
 # Display
 TARGET_SCREEN_DENSITY := 480
 
